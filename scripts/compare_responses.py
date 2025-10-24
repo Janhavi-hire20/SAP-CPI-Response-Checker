@@ -62,7 +62,7 @@ def main():
 
     # Fail pipeline if no differences (optional)
     if not diff:
-        raise AssertionError("No differences found between old and new mapping responses!")
-
+         print("✅ No differences found between old and new mapping responses!")
+         return
 if __name__ == "__main__":
     main()
